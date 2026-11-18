@@ -72,7 +72,7 @@
       e.preventDefault();
       var n = form.name.value, em = form.email.value, m = form.message.value;
       var body = encodeURIComponent(m + '\n\nFrom: ' + n + ' (' + em + ')');
-      location.href = 'mailto:your@email.com?subject=' + encodeURIComponent('Portfolio message from ' + n) + '&body=' + body;
+      location.href = 'mailto:geniuscoding8@gmail.com?subject=' + encodeURIComponent('Portfolio message from ' + n) + '&body=' + body;
     });
   }
 })();
